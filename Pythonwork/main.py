@@ -6,6 +6,7 @@ import random
 
 app = FastAPI()
 
+
 # 1. 가짜 날씨 데이터 생성
 def generate_fake_weather_data():
     cities = ["서울", "부산", "대구", "인천", "광주", "대전", "울산", "수원"]
